@@ -28,7 +28,7 @@ public class SquaresofaSortedArray {
         Arrays.sort(nums);
         return nums;
     }
-    public static void main(String[] args) {
+    public static void main(String[]  args) {
         int arr[]=new int[100];
         SquaresofaSortedArray obj = new SquaresofaSortedArray();
         arr = obj.sortedSquares(new int[]{-7,-3,2,3,11});
