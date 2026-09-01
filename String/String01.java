@@ -9,4 +9,10 @@ class String01{
         System.out.println(inpuString);
 
     }
+
+    //Question 1: - count the no. of vowels in a given string
+    public static int vowels(String s){
+        int count=0;
+        return count;
+    }
 }
