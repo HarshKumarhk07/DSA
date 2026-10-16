@@ -7,6 +7,5 @@ public class A7WhileLoop {
             System.out.print(i+" ");
             i++;
         }
-        
     }
 }
