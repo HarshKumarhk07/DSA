@@ -7,7 +7,7 @@ public class L2A16_Rev_Left_ABC_Pattern {
         for(int i=1;i<=n;i++){
             char c = 'A';
             for(int j=i;j>=1;j--){
-                System.out.print((char)(c+n-j)+" 5");
+                System.out.print((char)(c+n-j)+" ");
             }
             System.out.println();
         }
