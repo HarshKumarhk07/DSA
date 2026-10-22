@@ -23,6 +23,7 @@ public class S2TreeSet_JavaCollections {
             System.out.println(set.ceiling(30));
         //7. floor(x)=> give the value equal to or just less than x
             System.out.println(set.floor(30));
+        //print the set using for-each loop
             for(int num: set){
                 System.out.print(num + " ");
             }
