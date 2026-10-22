@@ -24,8 +24,16 @@ public class Set_JavaCollections {
     
         //4. remove()
         set.remove(30);
-
+        
         System.out.println(set.size());
 
+        //5. isEmpty()
+        set.isEmpty();
+
+        //6. clear()=> set.clear(); all the element from the set
+        //7. addAll(Collection)=> add all the element from that collection to this set
+        //8. removeAll(Collection)=> remove all the element from that collection to this set
+
+        
     }
 }

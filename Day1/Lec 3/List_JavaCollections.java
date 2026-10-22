@@ -38,6 +38,9 @@ public class List_JavaCollections {
         //8. indexOf()
         System.out.println(list.indexOf(10));
 
+        //9. Size()
+        System.out.print(list.size());
+
 
     }
 }
