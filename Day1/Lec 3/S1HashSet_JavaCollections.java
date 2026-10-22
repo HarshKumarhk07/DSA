@@ -1,11 +1,11 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class Set_JavaCollections {
+public class S1HashSet_JavaCollections {
     public static void main(String[] args) {
         ////Set : A set doesn't allow duplicate elements
         ///HashSet: 1.Fast Look up, 2.unique element, 3. no guaranteed ordering
-
+        ///if you want to element to be unique and in inserted order format use LinkedHashSet and methods are same as hashset
         Set<Integer> set = new HashSet<>();
 
         //1. add(value)
