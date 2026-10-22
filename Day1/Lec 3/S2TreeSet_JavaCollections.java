@@ -15,7 +15,14 @@ public class S2TreeSet_JavaCollections {
             System.out.println(set.first());
         //3. last()=> give the last element of the set
             System.out.println(set.last());
-
+        //4. lower(x)=> give the value just lower than x
+            System.out.println(set.lower(30));
+        //5. upper(x)=> give the value just upper than x
+            System.out.println(set.higher(20));
+        //6. ceiling(x)=> give the value equal to or just greater than x
+            System.out.println(set.ceiling(30));
+        //7. floor(x)=> give the value equal to or just less than x
+            System.out.println(set.floor(30));
             for(int num: set){
                 System.out.print(num + " ");
             }
