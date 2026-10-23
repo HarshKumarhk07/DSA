@@ -30,6 +30,23 @@ public class Deque_Java_Collections {
         stack.add(5);
         stack.add(6);
         stack.addFirst(0);
+        
+        //queue as ArrayDeque
+
+        Deque<Integer> queue = new ArrayDeque<>();
+        queue.add(10);
+        queue.add(20);
+        queue.add(30);
+        queue.add(40);
+        queue.add(50);
+        queue.add(60);
+        queue.addFirst(1);
+        queue.addLast(100);
+
+        Iterator<Integer> itr = queue.iterator();
+        while(itr.hasNext()){
+            System.out.print(itr.next()+" ");
+        }
 
     }
 }

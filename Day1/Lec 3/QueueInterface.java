@@ -54,7 +54,9 @@ public class QueueInterface {
         }
         System.out.println();
         System.out.println(queue3.peek());
+        System.out.println();
         System.out.println(queue3.element());
+        
         
         
 
