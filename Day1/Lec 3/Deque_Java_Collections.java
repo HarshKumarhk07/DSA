@@ -48,5 +48,8 @@ public class Deque_Java_Collections {
             System.out.print(itr.next()+" ");
         }
 
+        //Deque as LinkedList
+        Deque<Integer> linkedListQueue = new LinkedList<>();
+
     }
 }
