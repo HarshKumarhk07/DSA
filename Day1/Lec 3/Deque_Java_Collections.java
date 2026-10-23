@@ -8,7 +8,7 @@ public class Deque_Java_Collections {
         dq.addFirst(20);
         dq.addLast(30);
         dq.addFirst(10);
-        dq.push(10);
+        dq.push(10);//add element at front beacause it is a stack method 
         dq.push(20); 
         dq.offer(40);             
         System.out.println(dq);          // [10, 20, 30]
@@ -21,6 +21,15 @@ public class Deque_Java_Collections {
 
         System.out.println(dq); 
 
+        //Stack as Dequeue
+        Deque<Integer> stack = new ArrayDeque<>();
+        stack.addFirst(2);
+        stack.add(7);
+        stack.add(3);
+        stack.addFirst(1);
+        stack.add(5);
+        stack.add(6);
+        stack.addFirst(0);
 
     }
 }
