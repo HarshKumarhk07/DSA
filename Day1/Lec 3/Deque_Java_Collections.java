@@ -50,6 +50,6 @@ public class Deque_Java_Collections {
 
         //Deque as LinkedList
         Deque<Integer> linkedListQueue = new LinkedList<>();
-
+        
     }
 }
