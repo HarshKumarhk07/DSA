@@ -15,6 +15,5 @@ public class L4_L1_Count_Digit {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(count(n));
-
     }
 }
